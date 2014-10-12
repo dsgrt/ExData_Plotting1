@@ -1,5 +1,3 @@
-setwd("/Users/gilrosst/Documents/Data Science/R Working Directory/expcourproj1")
-
 data <- read.table("household_power_consumption.txt", header = TRUE, sep = ";", na.strings = "?", colClasses = "character")
 
 data$Date <- as.Date(data$Date, "%d/%m/%Y")
